@@ -5,6 +5,19 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("fonts/Satoshi-Regular.woff2") format("woff2");
+  /* ... */ 
+}
+
+@theme {
+  --font-display: Satoshi, "sans-serif";
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
