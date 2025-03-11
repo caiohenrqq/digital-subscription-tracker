@@ -10,7 +10,7 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url("fonts/Satoshi-Regular.woff2") format("woff2");
+  src: url("/fonts/Satoshi-Regular.woff2") format("woff2");
   /* ... */ 
 }
 
